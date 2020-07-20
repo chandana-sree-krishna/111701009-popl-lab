@@ -1,0 +1,11 @@
+(*
+val foldr : ('a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+    foldr f : -> 'a list -> 'b -> 'b
+    foldr f ('a list) : 'b -> 'b
+    foldr f ('a list) y -> 'b
+    foldr f ('a list) y -> 'b
+*)
+
+fun foldr f [] b = b
+  | foldr f x::xs b = f x (foldr f xs b);
+
