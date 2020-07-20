@@ -4,4 +4,4 @@
 ### **RollNo:** 111701009
 
 This repository contains most of the lab assignments done under the Paradigms of Programming Language Laboratory Course, 5th Sem, IIT Palakkad.
-The language used are **SML**, **Prolog** and **Rust**.
+The languages used are **SML**, **Prolog** and **Rust**.
